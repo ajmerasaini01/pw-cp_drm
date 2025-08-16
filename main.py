@@ -83,7 +83,7 @@ async def account_login(bot: Client, m: Message):
             os.remove(x)
             
         except:
-            await m.reply_text("Invalid file input.🥲")
+            await m.reply_text("Invalid file input.🌵🌵🌵🔥🔥🌵😅🫠😘🙂😅🤤😅🤤🥲")
             os.remove(x)
             return
     else:
@@ -265,7 +265,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done Boss🔰")
+    await m.reply_text("🔰Done ★★★★★★★Boss🔰")
 
 
 bot.run()
